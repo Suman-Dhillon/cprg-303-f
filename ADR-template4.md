@@ -1,5 +1,5 @@
 # ADR: Developing a Mobile app for a retail company
-The decision have been made on the basis of data security.
+The decision has been made on the basis of data security and access control for sensitive user data like payment information.
 
 ## Decision: Permissions
 We have decided to implement a granular permissions system to control access to application features and data.
