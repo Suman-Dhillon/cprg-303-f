@@ -1,5 +1,5 @@
 # ADR: Developing a Mobile app for a retail company
-The decision have been made on the basis of better app performance and functionality.
+The decision has been made on the basis of better app performance and functionality like push notifications.
 
 ## Decision: Native, Web, or Hybrid app
 We have decided to develop a native mobile app for the retail company. 
