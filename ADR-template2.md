@@ -1,5 +1,5 @@
 # ADR: Developing a Mobile app for a retail company
-The decision have been made on the basis of consistency and user-experience.
+The decision has been made based on both iOS and Android devices, where a consistent and platform-specific UI experience is intended.
 
 ## Decision: UI Framework
 We have decided to use React Native as the UI framework for the development of the application.
