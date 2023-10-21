@@ -1,5 +1,5 @@
 # ADR: Developing a Mobile app for a retail company
-The decision have been made on the basis of company's demand of offline support and scalability.
+The decision has been made on the basis of the company's demand for offline support, consistency, and scalability.
 
 ## Decision: Data Storage
 We have decided to use a combination of local storage on the mobile device and a server-side database for data storage.
