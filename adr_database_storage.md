@@ -7,20 +7,20 @@ Status: Proposed. Under evaluation by the team.
 We need to decide the appropriate database storage solution to manage user data and progress for our app "Codinggo". The primary focus of the project is to teach coding concepts through interactive exercises and quizzes. Among various options availabe, we are considering local(unencrypted) as a possible choice.
 
 ## Decision Considerations
-Ease of use and maintenance  
-Performance and scalability  
-Offline Access  
-Cost and licensing  
+- Ease of use and maintenance  
+- Performance and scalability  
+- Offline Access  
+- Cost and licensing  
 
 ## Considered Options
-Local (encrypted)  
-Local (unencrypted)  
-Remote  
-None
+- Local (encrypted)  
+- Local (unencrypted)  
+- Remote  
+- None
 
 ## Rationale
-### Local (Uncrypted) Data Storage
-Storing user data locally in an unencrypted format simplifies the data storage and implementation. It ensures offline access for the user and carry on with their learning journey, even when they are offline. Unlike encrypted storage, there are fewer data protection compliance concerns when data is stored locally in an unencrypted manner. Moreover, it lowers the cost of server infrastructure which might be needed in remote storage.
+### Local (Unencrypted) Data Storage
+Storing user data locally in an unencrypted format simplifies the data storage and implementation. It ensures offline access for the user and carry on with their learning journey, even when they are offline. Unlike encrypted storage, there are fewer data protection compliance concerns when data is stored locally in an unencrypted manner. Unencrypted data storage can be a better option as we are not dealing with any sensitive information like payment options. Moreover, it lowers the cost of server infrastructure which might be needed in remote storage. Remote storage can be more complex to set up and maintain as compared to local unencrypted data storage.
 
 ## Consequences
 - Positive: It will require less development effort and complexity. User can access their progress offline, improving app's usability. It doesn't rely on faraway servers, it saves money on server infrastructure.  
